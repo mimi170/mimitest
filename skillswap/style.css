@@ -1,0 +1,260 @@
+```css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #252b42;
+    min-height: 100vh;
+
+    background:
+        radial-gradient(circle at 10% 10%, rgba(124, 92, 255, 0.08), transparent 30%),
+        radial-gradient(circle at 90% 20%, rgba(91, 164, 255, 0.08), transparent 30%),
+        linear-gradient(135deg, #f8faff 0%, #f4f7fc 50%, #f8f7ff 100%);
+}
+
+/* ================= NAVBAR ================= */
+
+nav {
+    height: 72px;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+    border-bottom: 1px solid #e9ecf4;
+    box-shadow: 0 4px 20px rgba(31, 41, 70, 0.06);
+}
+
+nav a {
+    color: #4b4f68;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #6657d9;
+}
+
+/* ================= CONTAINER ================= */
+
+.container {
+    width: 90%;
+    max-width: 1120px;
+    margin: 55px auto;
+}
+
+/* ================= HEADINGS ================= */
+
+h1 {
+    color: #252b42;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    color: #303650;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #4f5470;
+}
+
+/* ================= CARD ================= */
+
+.card {
+    background: rgba(255, 255, 255, 0.96);
+    padding: 30px;
+    margin: 22px 0;
+    border-radius: 18px;
+
+    border: 1px solid #e7eaf2;
+
+    box-shadow:
+        0 8px 30px rgba(31, 41, 70, 0.07);
+
+    transition: 0.25s;
+}
+
+.card:hover {
+    box-shadow:
+        0 12px 35px rgba(31, 41, 70, 0.10);
+}
+
+/* ================= INPUT ================= */
+
+input,
+textarea {
+    width: 100%;
+    max-width: 600px;
+
+    padding: 14px 16px;
+
+    margin-top: 7px;
+
+    border: 1px solid #dfe3ed;
+    border-radius: 10px;
+
+    background: #fbfcff;
+
+    color: #303650;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: 0.2s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #8174df;
+
+    background: white;
+
+    box-shadow:
+        0 0 0 4px rgba(129, 116, 223, 0.10);
+}
+
+textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+
+/* ================= BUTTON ================= */
+
+button {
+    background: linear-gradient(
+        135deg,
+        #6558d9,
+        #8174e5
+    );
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 23px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    margin: 5px;
+
+    box-shadow:
+        0 6px 18px rgba(101, 88, 217, 0.20);
+
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 10px 24px rgba(101, 88, 217, 0.28);
+}
+
+/* ================= LINKS ================= */
+
+a {
+    color: #6257c7;
+}
+
+a:hover {
+    color: #403795;
+}
+
+/* ================= TABLE ================= */
+
+table {
+    width: 100%;
+
+    background: white;
+
+    border-collapse: collapse;
+
+    margin-top: 30px;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 28px rgba(31, 41, 70, 0.07);
+}
+
+th,
+td {
+    padding: 15px;
+
+    border-bottom: 1px solid #edf0f5;
+
+    text-align: left;
+}
+
+th {
+    background: #6558d9;
+    color: white;
+}
+
+tr:hover {
+    background: #f8f8fd;
+}
+
+/* ================= DASHBOARD CARDS ================= */
+
+.actions {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 22px;
+
+    margin-top: 30px;
+}
+
+.action-card {
+    background: rgba(255, 255, 255, 0.96);
+
+    padding: 25px;
+
+    border-radius: 18px;
+
+    text-decoration: none;
+
+    color: #303650;
+
+    border: 1px solid #e7eaf2;
+
+    box-shadow:
+        0 7px 25px rgba(31, 41, 70, 0.07);
+
+    transition: all 0.25s ease;
+}
+
+.action-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #d8d2f6;
+
+    box-shadow:
+        0 14px 32px rgba(31, 41, 70, 0.11);
+}
+
+.action-card h3 {
+    color: #5d51bd;
+
+    margin-top: 0
+```
